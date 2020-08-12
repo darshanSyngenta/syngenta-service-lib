@@ -17,10 +17,10 @@ class TransactionLogHandlerClass {
             if (this.isSuccess(res)) {
               // log successful transactions
               
-              logger.debug('Transaction Successful ',this.createPayload(req));
+              logger.info('Transaction Successful %s',this.createPayload(req));
     
             } else {
-              logger.error('Transaction Failed ',this.createPayload(req));
+              logger.error('Transaction Failed %s',this.createPayload(req));
             }
           } catch (err) {
             logger.error(err);

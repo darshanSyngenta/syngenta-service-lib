@@ -15,7 +15,7 @@
     "redis": "^2.8.0",
     "throng": "^4.0.0",
     "typescript": "^3.9.7",
-    "winston": "^3.3.3"
+    "winston": "3.2.1"
   },
   "devDependencies": {
     "@types/helmet": "0.0.47",
